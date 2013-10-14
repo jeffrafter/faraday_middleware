@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'hashie', '>= 1.2'
+gem 'faraday', :git => 'https://github.com/lostisland/faraday'
 gem 'jruby-openssl', :platforms => :jruby
 gem 'json', :platforms => [:jruby, :rbx, :ruby_18]
 gem 'multi_xml', '>= 0.5.3'
